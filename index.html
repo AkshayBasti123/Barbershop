@@ -1,1 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elite Cuts Barbershop</title>
 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="site-header" id="top">
+    <div class="nav-inner">
+      <a href="#top" class="brand">
+        <span class="brand-mark">✦</span> Elite Cuts
+      </a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact" class="nav-cta">Book Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="headline">
+        <span>Elite</span> Cuts Barbershop
+      </h1>
+      <p class="tagline">Precision • Craft • Confidence</p>
+      <a href="#contact" class="btn btn-gold">Reserve Your Spot</a>
+    </div>
+    <!-- Decorative corners -->
+    <div class="corner tl"></div>
+    <div class="corner tr"></div>
+    <div class="corner bl"></div>
+    <div class="corner br"></div>
+  </section>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div class="about-media">
+        <div class="portrait">
+          <img src="images/barber-portrait.jpg" alt="Master barber at work">
+        </div>
+      </div>
+      <div class="about-text">
+        <h2 class="section-title">Crafted With Care</h2>
+        <p>
+          At <strong>Elite Cuts</strong>, every detail matters. From classic fades to tailored beard
+          designs, our barbers merge tradition with modern technique. Sit back, relax, and leave with
+          a cut that turns heads—polished, sharp, and unmistakably you.
+        </p>
+        <ul class="about-list">
+          <li>Premium tools & products</li>
+          <li>Appointment-first experience</li>
+          <li>Modern & classic styles</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services & Pricing -->
+  <section class="section services" id="services">
+    <div class="container">
+      <h2 class="section-title center">Services & Pricing</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-top">
+            <h3>Precision Haircut</h3>
+            <span class="price">$30</span>
+          </div>
+          <p>Tailored cut with consultation, styled finish, and hot towel neckline shave.</p>
+          <div class="card-accent"></div>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>Beard Trim & Line-Up</h3>
+            <span class="price">$20</span>
+          </div>
+          <p>Shape, fade, and razor line-up with nourishing beard oil to finish.</p>
+          <div class="card-accent"></div>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>Full Grooming Package</h3>
+            <span class="price">$60</span>
+          </div>
+          <p>Haircut + beard trim + hot towel treatment. The complete Elite experience.</p>
+          <div class="card-accent"></div>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>Skin Fade & Style</h3>
+            <span class="price">$40</span>
+          </div>
+          <p>Ultra-clean fade with precision detailing and premium styling products.</p>
+          <div class="card-accent"></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <h2 class="section-title center">Work That Speaks</h2>
+      <div class="masonry">
+        <figure class="tile"><img src="images/g1.jpg" alt="Skin fade"></figure>
+        <figure class="tile tall"><img src="images/g2.jpg" alt="Classic cut"></figure>
+        <figure class="tile"><img src="images/g3.jpg" alt="Beard trim"></figure>
+        <figure class="tile wide"><img src="images/g4.jpg" alt="Pompadour"></figure>
+        <figure class="tile"><img src="images/g5.jpg" alt="Razor lineup"></figure>
+        <figure class="tile tall"><img src="images/g6.jpg" alt="Modern fade"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <h2 class="section-title center">What Clients Say</h2>
+      <div class="quotes">
+        <blockquote class="quote">
+          <p>“Best fade in the city. Attention to detail is unreal.”</p>
+          <footer>— Marcus R.</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <p>“Laid-back vibe, premium results. I won’t go anywhere else.”</p>
+          <footer>— Daniel K.</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <p>“They actually listen. I walked out looking exactly how I pictured.”</p>
+          <footer>— Elias T.</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Booking -->
+  <section class="section contact" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-text">
+        <h2 class="section-title">Book An Appointment</h2>
+        <p>
+          Reserve your chair and we’ll handle the rest. Walk-ins welcome when available.
+        </p>
+        <ul class="contact-details">
+          <li><span>Address:</span> 221 King St, YourCity</li>
+          <li><span>Phone:</span> (123) 456-7890</li>
+          <li><span>Email:</span> bookings@elitecuts.com</li>
+          <li><span>Hours:</span> Tue–Sat 10am–7pm</li>
+        </ul>
+      </div>
+
+      <form class="form glass" action="#" method="post">
+        <div class="field">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        </div>
+        <div class="field half">
+          <label for="date">Preferred Date</label>
+          <input id="date" name="date" type="date" required>
+        </div>
+        <div class="field half">
+          <label for="service">Service</label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option>Precision Haircut</option>
+            <option>Beard Trim & Line-Up</option>
+            <option>Full Grooming Package</option>
+            <option>Skin Fade & Style</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Notes</label>
+          <textarea id="message" name="message" rows="4" placeholder="Anything we should know?"></textarea>
+        </div>
+        <button class="btn btn-gold w-100" type="submit">Request Booking</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Elite Cuts Barbershop — All Rights Reserved</p>
+      <div class="socials">
+        <a aria-label="Instagram" href="#"><svg viewBox="0 0 30 30"><path d="M 9.998 3 C 6.139 3 3 6.142 3 10.002V20.002C3 23.861 6.142 27 10.002 27H20.002C23.861 27 27 23.858 27 19.998V9.998C27 6.139 23.858 3 19.998 3H9.998zM22 7a1 1 0 110 2 1 1 0 010-2zm-7 2a6 6 0 110 12 6 6 0 010-12z"/></svg></a>
+        <a aria-label="Twitter" href="#"><svg viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645C459.695 304.025 354.112 463.863 161.137 463.863c-59.452 0-114.68-17.219-161.137-47.106 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985 30.214 12.67 47.431 13.319 76.67 33.137-14.292 20.791-32.161 39.308-52.628 54.253 21.117-2.273 41.584-8.122 60.426-16.243 23.971 35.044 57.502 58.734 76.67 33.137z"/></svg></a>
+        <a aria-label="Facebook" href="#"><svg viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06H296V6.26S259.37 0 225.36 0c-73.22 0-121.07 44.38-121.07 124.72v70.62H22.89V288h81.4v224h100.2V288z"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
